@@ -1,0 +1,29 @@
+dataset/
+data/
+output/
+models/
+artifacts/
+*.parquet
+*.pkl
+*.tsv
+*.joblib
+*.pickle
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
